@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //macro analysées par requête au pré-processeur (avant de build)
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,11 +11,29 @@
 int main()
 //int() -> fonction qui retourne un int
 //main n'a pas besoin d'être une fonction int() : void main() -> procédure
+=======
+//macro analysÃ©es par requÃªte au prÃ©-processeur (avant de build)
+#include <stdio.h>
+#include <stdlib.h>
+    //bibliothÃ¨ques
+    //.h -> fichiers de dÃ©clarations (header) de primitives utilisÃ©es dans le programme
+
+//extension .c -> fichiers sources pour programmes en langage C
+// d'oÃ¹ main.c
+
+int main()
+//int() -> fonction qui retourne un int
+//main n'a pas besoin d'Ãªtre une fonction int() : void main() -> procÃ©dure
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
 {
     /* comm para */
     //com ligne
 
+<<<<<<< HEAD
     //unsigned: non signé -> xple unsigned short
+=======
+    //unsigned: non signÃ© -> xple unsigned short
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
 
     //types d'entiers
         short sn_entier; //entier court
@@ -25,9 +44,15 @@ int main()
         printf("Taille octets de int : %d\n", sizeof(n_entier));
         printf("Taille octets de long : %d\n", sizeof(l_entier));
             //sizeof permet d'obtenir la taille en octets
+<<<<<<< HEAD
             //éléments codés sur 16(2*8bits) ou 32(4*8bits) bits
 
     //réel
+=======
+            //Ã©lÃ©ments codÃ©s sur 16(2*8bits) ou 32(4*8bits) bits
+
+    //rÃ©el
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
         float flt_reel;
         double dbl_reel;
         long double ldbl_reel;
@@ -36,7 +61,11 @@ int main()
         printf("Taille octets de double : %d\n", sizeof(dbl_reel));
         printf("Taille octets de long double : %d\n", sizeof(ldbl_reel));
 
+<<<<<<< HEAD
     //caractère
+=======
+    //caractÃ¨re
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
         char c_car;
         printf("Taille octets de char : %d\n", sizeof(c_car));
 
@@ -47,7 +76,11 @@ int main()
 
     // http://cplusplus.com/reference/cstdio/
 
+<<<<<<< HEAD
     //opérateurs
+=======
+    //opÃ©rateurs
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
         int n_a = 255;
         int n_b = 0;
 
@@ -63,12 +96,20 @@ int main()
         // -
         // *
         // /
+<<<<<<< HEAD
             // ATTENTION : si division sur entiers : division entière !!
+=======
+            // ATTENTION : si division sur entiers : division entiÃ¨re !!
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
             // pour division standart, nb flottants !!
         // %
 
         // =
+<<<<<<< HEAD
         // ,  -> séparateur de séquences
+=======
+        // ,  -> sÃ©parateur de sÃ©quences
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
 
         // & (&&)   -> ET
         // | (||)   -> OU
@@ -83,9 +124,15 @@ int main()
 
     /* ------------------------------------------------------------------------------- */
 
+<<<<<<< HEAD
     //ECRIRE -> saisie formatée
         printf("val de n_a : %d et n_b : %d\n", n_a, n_b);
             // les éléments sont affichés dans l'ordre
+=======
+    //ECRIRE -> saisie formatÃ©e
+        printf("val de n_a : %d et n_b : %d\n", n_a, n_b);
+            // les Ã©lÃ©ments sont affichÃ©s dans l'ordre
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
         printf("val de n_a : %x et n_b : %x\n", n_a, n_b);
             // d% affiche des entiers, // convertit en hexadecimale
 
@@ -100,7 +147,11 @@ int main()
 
 
     return 0;
+<<<<<<< HEAD
     //point de sortie 0 permet au programme de savoir que toutes les routines se sont exécutées au point de sortie
+=======
+    //point de sortie 0 permet au programme de savoir que toutes les routines se sont exÃ©cutÃ©es au point de sortie
+>>>>>>> b78306ed4b06b26b45a68ae369be4354c5d3df70
 
     //retours sur l'environnement :
         //except
