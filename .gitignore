@@ -1,0 +1,7 @@
+#gitignore programmation_c
+
+/programmation_c/bin/Debug/programmation_c.exe
+/programmation_c/ogb/Debug/main.o
+
+*.exe
+*.o
