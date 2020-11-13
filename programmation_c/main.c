@@ -21,6 +21,7 @@ int main()
         // CAR tableau = pointeur !
     printf("Votre chaine : %s \n", c_Chaine);
 
+
     strcpy(c_Chaine,"mamapoux");
     //réaffectation de chaine de caractères (sans passer par un tableau)
     // !! nécessite la bibliothèque string.h !!
@@ -35,9 +36,34 @@ int main()
     }
     printf("%d\n", n_i);
 
+
     //int tab[100000000000000000000000000000000000];
     // ce tableau est trop grand -> x4 = taille en octets
     // OR la taille max d'une pile est 2Mo -> c'est largement dépassé
+
+    printf("Saisir chaine : \n");
+    gets(c_Chaine);
+        // au lieu de scanf()
+    printf("Votre chaine : %s \n", c_Chaine);
+
+    printf("Saisir chaine : \n");
+    fgets(c_Chaine, TAILLE, stdin);
+        // recupère le flux d'entrée
+    //printf("Votre chaine : %s \n", c_Chaine);
+    fputs(c_Chaine, stdout);
+
+
+    fflush(stdin);
+
+    for(n_i=0;n_i<TAILLE;n_i++) {
+        printf("Car : \n");
+        scanf("%c", &c_Chaine[n_i]);
+        printf("%c\n", c_Chaine[n_i]);
+    }
+
+
+
+
 
     return 0;
 }
