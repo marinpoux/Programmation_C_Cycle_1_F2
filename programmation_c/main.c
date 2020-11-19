@@ -4,6 +4,8 @@
 //prototypes
 void int_somme(int n_nb1, int n_nb2, int *n_res);
 void init_tabEntier(int n_tabEntier[], int n_taille);
+char *get_tabChar(char c_tabChar[], int taille);
+
 
 int main()
 {
@@ -99,6 +101,11 @@ int main()
     int n_tabentier[100];
     init_tabEntier(n_tabentier, 100);
 
+
+    char *p_char = get_tabChar(c_tab, 10);
+    // fonction retourne un tableau de char, stockage dans pointeur
+    //pointeur prend valeur de la référence (premier cellule) du tableau
+
     return 0;
 }
 
@@ -119,4 +126,17 @@ void init_tabEntier(int n_tabEntier[], int n_taille){
 
         n_tabEntier[n_i]=0;
     }
+}
+
+
+// pour retourner un tableau --> utilisation pointeur
+char *get_tabChar(char c_tabChar[], int taille){
+    int n_i;
+
+    for (n_i=0; n_i<taille; n_i++){
+
+        c_tabChar[n_i]='z';
+    }
+
+    return c_tabChar;
 }
