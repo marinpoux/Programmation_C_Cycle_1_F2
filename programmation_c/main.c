@@ -35,7 +35,22 @@ int main(int argc, char *argv[])
         }
     }
 
-    SDL_Delay(1000);    //fenetre reste ouverte 1000ms (1s)
+    //Set color
+    SDL_SetRenderDrawColor(pRenderer, 205,92,92, SDL_ALPHA_OPAQUE);
+    //Clear render
+    SDL_RenderClear(pRenderer);
+    //MaJ render
+    SDL_RenderPresent(pRenderer);
+
+    SDL_Delay(4000);    //fenetre reste ouverte 4000ms (4s)
+
+    if (pRenderer){
+        SDL_DestroyRenderer(pRenderer);
+    }
+
+    if (pWindow){
+        SDL_DestroyWindow(pWindow);
+    }
 
     SDL_Quit();
 
