@@ -37,7 +37,7 @@ int main()
     int **ppn_MatEntier=NULL;
 
     //allocation de l'espace memoire au premier pointeur
-    ppn_MatEntier==(int**)malloc(10*sizeof(int));
+    ppn_MatEntier=(int**)malloc(10*sizeof(int));
 
     int i=0;
     for(i=0;i<10;i++){  //allocation avec une boucle --> liberation aussi necessite une boucle !!
