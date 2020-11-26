@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606379217 source:c:\users\marin\desktop\cours\fd 2\algo\programmation_c_cycle_1_f2\programmation_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
