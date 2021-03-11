@@ -1,5 +1,0 @@
-﻿  CPoint.cpp
-  main.cpp
-C:\Users\marin\Desktop\Cours\FD 2\algo\C++\Cpp\main.cpp(23,20): warning C4305: 'initialisation' : troncation de 'double' à 'float'
-  Génération de code en cours...
-  Cpp.vcxproj -> C:\Users\marin\Desktop\Cours\FD 2\algo\C++\Cpp\Debug\Cpp.exe
